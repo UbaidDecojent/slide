@@ -1,0 +1,55 @@
+@import "./normalize.scss";
+@import "./CSS-grid.scss";
+body{
+    overflow-x: hidden !important;
+}
+.slideshow {
+    margin-top: calc(50vh - 25vh);
+    padding-bottom: 4vw;
+    border: none !important;
+  }
+  
+  .slide {
+    width: 400px;
+    // max-resolution: 4vw;
+    margin-right: 4vw;
+    text-align: center;
+    height: 50vh;
+    background-color: red;
+    border-radius: 6px;
+    color: #fff;
+    font-family: "Helvetica Neue", helvetica, arial;
+    font-size: 24px;
+    line-height: 50vh;
+    
+  }
+  .slide:nth-child(1) {
+    background-color: #2b00ff;
+  }
+  .slide:nth-child(2) {
+    background-color: #5500ff;
+  }
+  .slide:nth-child(3) {
+    background-color: #8000ff;
+  }
+  .slide:nth-child(4) {
+    background-color: #aa00ff;
+  }
+  .slide:nth-child(5) {
+    background-color: #d500ff;
+  }
+  .slide:nth-child(6) {
+    background-color: fuchsia;
+  }
+  .slide:nth-child(7) {
+    background-color: #ff00d5;
+  }
+  .slide:nth-child(8) {
+    background-color: #ff00aa;
+  }
+  .slide:nth-child(9) {
+    background-color: #ff0080;
+  }
+  .slide:nth-child(10) {
+    background-color: #ff0055;
+  }
